@@ -12,7 +12,6 @@ metadata:
   name: certificates.cert-manager.io
   annotations:
     cert-manager.io/inject-ca-from-secret: 'cert-manager/cert-manager-webhook-ca'
-    configmanagement.gke.io/managed: disabled
   labels:
     app: 'cert-manager'
     app.kubernetes.io/name: 'cert-manager'
